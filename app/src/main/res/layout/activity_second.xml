@@ -5,19 +5,19 @@
 
    <LinearLayout
        android:orientation="vertical"
-       android:weightSum="2"
        android:layout_width="match_parent"
        android:layout_height="match_parent">
        <LinearLayout
            android:background="@color/transparent_grey"
-           android:layout_weight="1"
            android:layout_width="match_parent"
-           android:layout_height="0dp"></LinearLayout>
+           android:layout_height="200dp"></LinearLayout>
        <LinearLayout
-           android:background="@android:color/white"
+           android:id="@+id/bottomContainer"
+           android:background="@drawable/placeholder"
            android:layout_weight="1"
            android:layout_width="match_parent"
-           android:layout_height="0dp"></LinearLayout>
+           android:layout_height="match_parent"
+           android:orientation="horizontal"></LinearLayout>
    </LinearLayout>
 
 </RelativeLayout>

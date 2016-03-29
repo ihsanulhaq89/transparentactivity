@@ -20,6 +20,11 @@
             android:name=".SecondActivity"
             android:label="@string/title_activity_second" >
         </activity>
+
+        <activity android:theme="@style/Theme.Transparent"
+            android:name=".HeadingActivity"
+            android:label="@string/title_activity_heading" >
+        </activity>
     </application>
 
 </manifest>

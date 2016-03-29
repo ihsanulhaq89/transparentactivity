@@ -20,5 +20,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         Intent i = new Intent(this, SecondActivity.class);
         startActivity(i);
+        overridePendingTransition(R.anim.bounce, R.anim.push_out_left);
     }
 }
